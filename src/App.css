@@ -48,3 +48,14 @@
   border: 2px solid black;
   margin: 5px;
 }
+
+.sports-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.sports-item {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}

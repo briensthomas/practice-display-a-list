@@ -12,6 +12,7 @@ function App() {
       <AnimalList animals={animals} />
       <hr />
       <SportsList sports={sports} />
+      <hr />
     </div>
   );
 }
