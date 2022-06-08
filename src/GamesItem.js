@@ -1,6 +1,5 @@
 
 export default function GamesItem({ name, type, consoles }) {
-  console.log(consoles);
   return (
     <div className="games-item">
       {/* {

@@ -9,6 +9,8 @@ import SportsList from './SportsList.js';
 import { games } from './games.js';
 import GamesList from './GamesList.js';
 
+import { outdoors } from './outdoors.js';
+import OutdoorsList from './OutdoorsList.js';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <SportsList sports={sports} />
       <hr />
       <GamesList games={games} />
+      <hr />
+      <OutdoorsList outdoors={outdoors} />
     </div>
   );
 }
