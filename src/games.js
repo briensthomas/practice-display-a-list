@@ -4,36 +4,34 @@ export const games = [
     name: 'Days Gone',
     type: 'survival',
     consoles: {
-      pc: 'yes',
-      ps4: 'yes',
-      xboxone: 'no',
-      switch: 'no',
-      ps5: 'no',
-      xboxSeriesX: 'no'
+      PC: true,
+      PS4: true,
+      XboxOne: false,
+      PS5: false,
+      XboxSeriesX: false,
     },
   },
   {
     name: 'Tiny Tina\'s Wonderland',
     type: 'Shooter, Adventure',
     consoles: {
-      pc: 'yes',
-      ps4: 'yes',
-      xbox1: 'yes',
-      switch: 'no',
-      ps5: 'yes',
-      xboxSeriesX: 'yes'  
+      PC: true,
+      PS4: true,
+      XboxOne: true,
+      PS5: true,
+      XboxSeriesX: true,
     },
   },
   {
     name: 'Ghostwire: Tokyo',
     type: 'Role-Playing Game',
     consoles: {
-      pc: 'yes',
-      ps4: 'no',
-      xbox1: 'yes',
-      switch: 'no',
-      ps5: 'yes',
-      xboxSeriesX: 'yes',  
+      PC: true,
+      PS4: true,
+      XboxOne: true,
+      PS5: true,
+      XboxSeriesX: true, 
     },
   }
 ];
+
