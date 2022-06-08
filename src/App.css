@@ -59,3 +59,15 @@
   flex-direction: column;
   margin: 5px;
 }
+
+.games-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.games-item {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  margin: 5px;
+}
